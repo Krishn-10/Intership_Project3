@@ -150,6 +150,7 @@ footer {
     .product-container {
         flex-direction: column;
         align-items: center;
+        flex-wrap: wrap;
     }
 
     .related-product-item {
@@ -192,4 +193,9 @@ body {
 }
 .user {
     font-weight: 300;
+}
+.related-products>h2{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 50px;
 }
